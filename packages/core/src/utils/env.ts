@@ -363,7 +363,7 @@ export const Env = cleanEnv(process.env, {
   // configuration settings
 
   MAX_ADDONS: num({
-    default: 15,
+    default: 25,
     desc: 'Max number of addons',
   }),
   // TODO
